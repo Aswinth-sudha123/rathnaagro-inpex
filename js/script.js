@@ -249,3 +249,8 @@
     say('Your email app is opening with your details filled in. Please press send.', 'success');
   });
 })();
+
+
+if (window.location.pathname === "/index.html") {
+window.location.replace("/");
+}
